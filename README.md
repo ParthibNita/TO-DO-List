@@ -1,8 +1,36 @@
-# React + Vite
+# Todo App README
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
 
-Currently, two official plugins are available:
+This is a Todo App built using React, which allows users to create, update, and delete todo items. The app also persists data to local storage, ensuring that todo items are retained even after the user closes the browser.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
+
+- Create new todo items
+- Update existing todo items
+- Delete todo items
+- Toggle todo item completion status
+- Persist data to local storage
+
+## Components
+
+- `App.js`: The main application component, which renders the todo list and provides functionality for creating, updating, and deleting todo items.
+- `TodoForm.js`: A component that renders a form for creating new todo items.
+- `TodoItem.js`: A component that renders a single todo item, including its title, description, and completion status.
+
+## Context API
+
+The app uses the Context API to manage state and provide functionality across components.
+
+## Local Storage
+
+The app uses local storage to persist todo items. When the app is loaded, it checks local storage for existing todo items and initializes the state accordingly. When the state changes, the app updates local storage to reflect the changes.
+
+## Getting Started
+
+To run the app, clone the repository and navigate to the project directory. Then, run the following commands:
+
+```bash
+npm install
+npm run dev
+```
