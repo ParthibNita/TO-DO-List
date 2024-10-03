@@ -1,5 +1,3 @@
-# Todo App README
-
 ## Overview
 
 This is a Todo App built using React, which allows users to create, update, and delete todo items. The app also persists data to local storage, ensuring that todo items are retained even after the user closes the browser.
